@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	padding-top: 10px;
+}
+p {
+	margin-left: 10px;
+	font: normal 15px "Lato", georgia;
+}
+
+h1 {
+	margin-left: 10px;
+	font: normal 40px "Lato", georgia;
+}
+
+h2 {
+	margin-left: 10px;
+	font: normal 30px "Lato", georgia;
+}
+
+h3 {
+	margin-left: 10px;
+	font: normal 20px "Lato", georgia;
+}
+
+a {
+	color: #000000;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Main content */
+.main {
+  margin-top: 55px; /* Add a top margin to avoid content overlay */
+}
+footer { 
+  padding: 1%;
+  background-color: #333;
+  width: 100%;
+  color: #ffffff;
+  text-align: center
+}
+footer a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.section{
+	display: table-cell;
+	width: 300px;
+	height: 190px;
+    border: 15px solid green;
+    padding: 15px 15px;
+    margin: 30px;
+}
+
+div.section2{
+	display: inline-table;
+	width: 900px;
+	height: 191px;
+    border: 15px solid green;
+    padding: 15px 15px;
+	margin: 30px 250px 30px 250px;
+	text-align: center;
+}
+
+div.section3{
+	display: inline-table;
+	width: 900px;
+	height: 191px;
+    border: 15px solid green;
+    padding: 15px 15px;
+    margin: 30px 225px 30px 225px;
+	text-align: center;
+}
+
+div.section4{
+	display: inline-table;
+	width: 800px;
+    border: 15px solid black;
+    padding: 15px 15px;
+    margin: 40px 250px 40px 275px;
+	background-color: #D4B1FA;
+	font: normal Verdana, sans-serif;
+}
+
