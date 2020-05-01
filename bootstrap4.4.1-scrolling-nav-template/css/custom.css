@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* KEEP THESE STYLES */
+header {
+  padding: 154px 0 100px;
+	  background: #85D9F2 url("../images/svbc6.jpg") center center no-repeat;
+
+}
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+section.bg-light {
+	background-color: #B31E21
+}
+section.about {
+	color: black;
+}
+p {
+	margin-left: 10px;
+	font: normal 15px "Lato", georgia;
+}
+
+h1 {
+	font: normal 50px "Lato", georgia;
+}
+
+h2 {
+	margin-left: 10px;
+	font: normal 30px "Lato", georgia;
+}
+
+h3 {
+	margin-left: 10px;
+	font: normal 20px "Lato", georgia;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column3 {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer { 
+  padding: 1%;
+  background-color: #333;
+  width: 100%;
+  color: #ffffff;
+  text-align: center
+}
+footer a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* END OF KEEP THESE STYLES */
